@@ -103,7 +103,7 @@ var reg = new Registry(Registry.HKEY_CURRENT_USER)
     reg.get_keys(rootKey, function(path) {
 		for (var key in Colours) {
 			if (Colours[key].split(":")[0] == "dword") {
-				WSHShell.RegWrite("HKEY_CURRENT_USER\\"+rootKey+"\\"+path+"\\"+key,parseInt(Colours[key].split(":")[1], 10),"REG_DWORD");
+				WSHShell.RegWrite("HKEY_CURRENT_USER\\"+rootKey+"\\"+path+"\\"+key,parseInt(Colours[key].split(":")[1], 16),"REG_DWORD");
 			} else {
 				WSHShell.RegWrite("HKEY_CURRENT_USER\\"+rootKey+"\\"+path+"\\"+key,Colours[key],"REG_SZ");
 			}

@@ -11,8 +11,9 @@ Original script from [putty-color-themes](https://github.com/AlexAkulov/putty-co
 First install [`UbuntuMono-Regular.ttf`](https://fonts.google.com/specimen/Ubuntu+Mono) font. You should be able to see "Ubuntu Mono" font.
 
 ## Change default settings to Ubuntu style
-Run `putty-ubuntu.reg`.
+1. Open Putty, and save anything with name "Default Settings".
+2. Run `putty-ubuntu.reg`.
 
 ## Change all saved sessions to Ubuntu style
-1. Drag the `putty-ubuntu.reg` and drop it on `_puttycolor.js`
-2. Install UbuntuMono-Regular.ttf and apply it on Putty.
+1. (optional) If you also want the default to change, open Putty, and save anything with name "Default Settings".
+2. Drag the `putty-ubuntu.reg` and drop it on `_puttycolor.js`

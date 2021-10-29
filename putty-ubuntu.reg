@@ -24,7 +24,7 @@ Windows Registry Editor Version 5.00
 "Colour0"="238,238,236"
 "Xterm256Colour"=dword:00000001
 "UseSystemColours"=dword:00000000
-"FontHeight"=dword:00000014
+"FontHeight"=dword:0000000E
 "FontIsBold"=dword:00000000
 "Font"="Ubuntu Mono"
 "Beep"=dword:00000002
