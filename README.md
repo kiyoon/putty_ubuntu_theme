@@ -11,9 +11,11 @@ Original script from [putty-color-themes](https://github.com/AlexAkulov/putty-co
 First install [`UbuntuMono-Regular.ttf`](https://fonts.google.com/specimen/Ubuntu+Mono) font.
 
 ## Change default settings to Ubuntu style
-1. Open Putty, and save anything with name "Default Settings".
+1. Open Putty, click "Default Settings" under "Saved Sessions", and click Save.
+    - This creates default settings in the registry.
 2. Run `putty-ubuntu.reg`.
+    - This will modify the default settings that was created in the previous step.
 
 ## Change all saved sessions to Ubuntu style
-1. (optional) If you also want the default to change, open Putty, and save anything with name "Default Settings".
+1. (optional) If you also want the default to change, open Putty, click "Default Settings" under "Saved Sessions", and click Save.
 2. Drag the `putty-ubuntu.reg` and drop it on `_puttycolor.js`
